@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Rancho');
+@import url('https://fonts.googleapis.com/css?family=Nobile');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+
+ul.topnav {
+	list-style-type: none;
+	margin-top: 30px;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgb(77, 26, 0);
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+	display: block;
+	color: white;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 30px;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+	
+}
+
+ul.topnav li.icon {display: none;}
+ul.topnav li a:hover:not(.active) {
+	background-color: transparent;
+	color: #cc4400;
+}
+
+ul.topnav li a.active {background-color: transparent;
+color: #cc4400;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+body {
+	margin: 0;
+}
+	
+.fundo{
+
+	margin: 0 auto;
+	background-image: url("../img/chocolatinho.jpg"); 
+	background-size: cover;
+	/*background-attachment: fixed;
+*/  background-repeat: none;
+
+}
+
+.logo h1{
+	font-family: 'Rancho', cursive;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	padding-top:20px;
+}
+
+.logo p{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.seletor img{
+	margin: 0 auto;
+	margin-top: 270%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.seletor{
+	margin: 0 auto;
+	text-align: center;
+	width: 10%;
+}
+
+.historia{
+	background-image: url("../img/castelo.jpg"); 
+	background-size: cover;
+	opacity: 1;
+	width: 100%;
+	height: 100vh;
+}
+
+.quadradoescrita{
+	height: 100%;
+	width: 50%;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.escrita h1{
+	font-family: 'Nobile', sans-serif;
+	font-size: 30px;
+	color: #662200;
+	text-align: center;
+	margin: 0;
+	padding-top: 80px;
+}
+
+.escrita h2{
+	font-family: 'Nobile', sans-serif;
+	font-size: 28px;
+	color: #662200;
+	text-align: center;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.escrita p{
+	font-family: 'Nobile', sans-serif;
+	font-size: 16px;
+	color: #662200;
+	text-align: justify;
+	padding: 10px;
+
+}
+
+.chocolate{
+	background-image: url("../img/chocolate.png");
+	background-size: cover;
+
+	margin-top: 0;
+	height: 105vh;
+}
+
+div.img {
+    margin-top: 160px;
+    margin-left: 80px;
+    float: left;
+    width: 250px;
+}
+
+div.img img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+div.desc {
+    padding: 15px;
+    margin-left: 30px;
+
+}
+
+.desc{
+	font-family: 'Nobile', sans-serif;
+	font-size: 20px;
+	color: #662200;
+}
+
+.desc h1:hover:not(.active) {
+	background-color: transparent;
+	color: #cc4400;
+	cursor: pointer;
+}
+
+.divisao{
+	background-image: url("../img/chococerto2.png"); 
+	background-size: 100% auto;
+	opacity: 1;
+	height: 190px;
+
+}
+
+.lojas{
+	background-image: url("../img/chocolatederretido.jpg"); 
+	background-size: cover;
+	opacity: 1;
+	width: 100%;
+	height: 100vh;
+}
+
+.quadradolojas{
+	height: 100%;
+	width: 50%;
+	background: rgba(255, 255, 255, 0.7);
+	margin: center;
+} 
+
+.escritalojas h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	color: #662200 ;
+	padding-bottom: 10px;
+	/*text-decoration: underline;*/
+	text-align: center;
+	margin: 0;
+	padding-top: 100px;
+}
+
+.escritalojas h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40px;
+	color: #662200 ;
+	margin-left: 30px;
+}
+.escritalojas p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	color: #662200 ;
+	margin-left: 30px;
+
+}
+
+.contatos{
+	background-image: url("../img/morango.jpg");
+	width: 100%;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+.quadradocontato{
+	height: 100%;
+	width: 50%;
+	float: right;
+	background: rgba(255, 255, 255, 0);
+}
+
+.escritacontato h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45px;
+	color: white;
+	padding-bottom: 10px;
+	/*text-decoration: underline;*/
+	text-align: center;
+	margin: 0;
+	padding-top: 100px;
+}
+
+.escritacontato h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top: 100px;
+}
+
+.escritacontato p{
+	font-family: 'Ranga', cursive;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	margin: 0;
+
+	
+}
+
+@media only screen and (max-device-width: 1024px) {
+.fundo{
+	margin: 0 auto;
+	background-image: url("../img/chocolatinho2.png"); 
+	height: 100vh;
+
+}
+
+.logo h1{
+	font-family: 'Rancho', cursive;
+	font-size: 80px;
+}
+
+.logo p{
+	font-size: 30px;
+}
+.seletor img{
+	margin-top: 1260%;
+	height: 150px ;
+	width: 150px ;
+}
+
+.chocolate{
+	background-image: url("../img/chocolate.png");
+	background-size: cover;
+	margin-top: 0;
+	height: 100vh;
+	text-align: center;
+}
+
+div.img {
+	margin-top: 300px;
+    float: left;
+    width: 290px;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#imagemdeli{
+	margin: 0 auto;
+	text-align: center;
+	display: inline;
+	
+}
+
+.historia{
+	background-image: url("../img/castelo.jpg"); 
+	background-size: cover;
+	opacity: 1;
+	width: 100%;
+	height: 100vh;
+}
+
+.quadradoescrita{
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+.escrita h1{
+	font-size: 50px;
+}
+
+.escrita p{
+	font-size: 30px;
+}
+
+.lojas{
+	background-image: url("../img/chocolatederretido.jpg"); 
+	background-size: cover;
+	opacity: 1;
+	width: 100%;
+	height: 100vh;
+}
+
+.escritalojas h1{
+	font-size: 60px;
+}
+
+.escritalojas h2{
+	
+	font-size: 50px;
+	
+}
+.escritalojas p{
+	
+	font-size: 35px;
+
+}
+
+.divisao{
+	height: 139px;
+
+}
+.contatos{
+	background-image: url("../img/morango2.png");
+	height: 100vh;
+}
+
+.quadradocontato{
+	margin-top: 400px;
+	height: auto;
+	margin-right: 50px;
+}
+.escritacontato h1 {
+	display: none;
+}
+
+.escritacontato h2{
+	font-size: 45px;
+
+}
+
+.escritacontato p{
+	font-size: 45px;
+	
+}
+
+}
+
+@media only screen and (max-device-width: 414px) {
+
+div.img {
+	margin-top: 250px;
+	margin-right: 0;
+	padding-right: 200px;
+	float: right;
+    width: 290px;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+}
