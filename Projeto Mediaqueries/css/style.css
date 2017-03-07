@@ -279,135 +279,13 @@ div.desc {
 	
 }
 
-@media only screen and (max-device-width: 1024px) {
-.fundo{
-	margin: 0 auto;
-	background-image: url("../img/chocolatinho2.png"); 
-	height: 100vh;
 
-}
-
-.logo h1{
-	font-family: 'Rancho', cursive;
-	font-size: 80px;
-}
-
-.logo p{
-	font-size: 30px;
-}
-.seletor img{
-	margin-top: 1260%;
-	height: 150px ;
-	width: 150px ;
-}
-
-.chocolate{
-	background-image: url("../img/chocolate.png");
-	background-size: cover;
-	margin-top: 0;
-	height: 100vh;
-	text-align: center;
-}
-
-div.img {
-	margin-top: 300px;
-    float: left;
-    width: 290px;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-}
-
-#imagemdeli{
-	margin: 0 auto;
-	text-align: center;
-	display: inline;
-	
-}
-
-.historia{
-	background-image: url("../img/castelo.jpg"); 
-	background-size: cover;
-	opacity: 1;
-	width: 100%;
-	height: 100vh;
-}
-
-.quadradoescrita{
-	height: 100%;
-	width: 100%;
-	background: rgba(255, 255, 255, 0.6);
-}
-
-.escrita h1{
-	font-size: 50px;
-}
-
-.escrita p{
-	font-size: 30px;
-}
-
-.lojas{
-	background-image: url("../img/chocolatederretido.jpg"); 
-	background-size: cover;
-	opacity: 1;
-	width: 100%;
-	height: 100vh;
-}
-
-.escritalojas h1{
-	font-size: 60px;
-}
-
-.escritalojas h2{
-	
-	font-size: 50px;
-	
-}
-.escritalojas p{
-	
-	font-size: 35px;
-
-}
-
-.divisao{
-	height: 139px;
-
-}
-.contatos{
-	background-image: url("../img/morango2.png");
-	height: 100vh;
-}
-
-.quadradocontato{
-	margin-top: 400px;
-	height: auto;
-	margin-right: 50px;
-}
-.escritacontato h1 {
-	display: none;
-}
-
-.escritacontato h2{
-	font-size: 45px;
-
-}
-
-.escritacontato p{
-	font-size: 45px;
-	
-}
-
-}
 
 @media only screen and (max-device-width: 414px) {
 
 div.img {
 	margin-top: 350px;
-	margin-right: 0;
+	margin-right: 15px;
 	padding-right: 100px;
 	float: right;
     width: 400px;
@@ -418,6 +296,97 @@ div.img img {
     height: auto;
     border-radius: 50%;
 }
+}
+
+@media only screen and (max-device-width: 1024px) {
+.fundo{
+
+	height: 100vh;
+
+}
+.historia{
+	width: 100%;
+	height: 100vh;
+}
+
+.quadradoescrita{
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.escrita h1{
+	font-size: 30px;
+}
+
+.escrita h2{
+	
+	font-size: 22px;
+}
+
+.escrita p{
+	font-size: 16px;
+}
+
+div.img {
+    width: 180px;
+    margin-right: 20px;
+}
+
+div.img img {
+    width: 70%;
+}
+
+.desc{
+	font-family: 'Nobile', sans-serif;
+	font-size: 20px;
+	color: #662200;
+}
 
 
+.divisao{
+	height: 139px;
+
+}
+}
+
+@media only screen and (max-device-width: 1440px) {
+.fundo{
+	height: 100vh;
+}
+
+.seletor img{
+	margin-top: 550px;
+	height: 100px ;
+	width: 100px ;
+}
+
+div.img {
+    width: 250px;
+    padding-top: 150px;
+}
+
+div.desc {
+    margin-left: 50px;
+}
+
+.quadradocontato{
+	margin-top: 270px;
+	height: auto;
+}
+
+.escritacontato h2{
+	font-size: 50px;
+
+}
+
+.escritacontato p{
+	font-size: 30px;
+	
+}
+@media only screen and (max-device-width: 425px) {
+.contatos{
+	background-image: url("../img/morango2.png");
+	height: 100vh;
+}
 }
