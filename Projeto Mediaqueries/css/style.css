@@ -128,11 +128,12 @@ body {
 	text-align: center;
 	margin: 0;
 	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .escrita h2{
 	font-family: 'Nobile', sans-serif;
-	font-size: 28px;
+	font-size: 22px;
 	color: #662200;
 	text-align: center;
 	margin: 0;
@@ -151,27 +152,25 @@ body {
 .chocolate{
 	background-image: url("../img/chocolate.png");
 	background-size: cover;
-
 	margin-top: 0;
 	height: 105vh;
 }
 
 div.img {
     margin-top: 160px;
-    margin-left: 80px;
+    margin-left: 35px;
     float: left;
-    width: 250px;
+    width: 240px;
 }
 
 div.img img {
-    width: 80%;
-    height: auto;
+    width: 100%;
     border-radius: 50%;
 }
 
 div.desc {
     padding: 15px;
-    margin-left: 30px;
+    margin-left: 10px;
 
 }
 
@@ -407,11 +406,11 @@ div.img img {
 @media only screen and (max-device-width: 414px) {
 
 div.img {
-	margin-top: 250px;
+	margin-top: 350px;
 	margin-right: 0;
-	padding-right: 200px;
+	padding-right: 100px;
 	float: right;
-    width: 290px;
+    width: 400px;
 }
 
 div.img img {
