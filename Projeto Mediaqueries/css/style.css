@@ -68,13 +68,12 @@ body {
 }
 	
 .fundo{
-
 	margin: 0 auto;
 	background-image: url("../img/chocolatinho.jpg"); 
 	background-size: cover;
-	/*background-attachment: fixed;
-*/  background-repeat: none;
-
+	background-repeat: none;
+	height: 100vh;
+	position: relative;
 }
 
 .logo h1{
@@ -96,8 +95,10 @@ body {
 }
 
 .seletor img{
-	margin: 0 auto;
-	margin-top: 270%;
+	position: absolute;
+	left: 50%;
+	margin-left: -35.5px;
+	top: 90%;
 	text-align: center;
 	cursor: pointer;
 }
@@ -328,9 +329,6 @@ div.img img {
 	height: 100vh;
 }
 
-.seletor img{
-	margin-top: 380%;
-}
 .historia{
 	width: 100%;
 	height: 100vh;
@@ -343,16 +341,16 @@ div.img img {
 }
 
 .escrita h1{
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .escrita h2{
 	
-	font-size: 22px;
+	font-size: 30px;
 }
 
 .escrita p{
-	font-size: 16px;
+	font-size: 22px;
 }
 
 div.img {
@@ -381,7 +379,6 @@ div.img img {
 }
 
 @media only screen and (max-device-width: 949px) {
-
 .escritachocolate h1{
 	padding-top: 150px;
 	padding-bottom: 20px;
@@ -406,7 +403,6 @@ div.img img {
 }
 
 @media only screen and (max-device-width: 860px) {
-
 .escrita h1{
 	font-size: 55px;
 }
@@ -567,6 +563,49 @@ div.img {
 }
 }
 
+@media only screen and (max-device-width: 400px) {
+
+.escrita p{
+	font-size: 40px;
+}
+.escritachocolate h1{
+	font-size: 80px;
+	padding-top: 40%;
+}
+
+div.img {
+    margin-top: 40%;
+    width: 80%;
+}
+
+.desc h2{
+	font-size: 70px;
+}
+
+.botaochocolate{
+	width: 25%;
+	height: 6%;
+	font-size: 45px;
+}
+
+}
+
+@media only screen and (max-device-width: 320px) {
+.escrita h1{
+	font-size: 80px;
+}
+
+.escrita h2{
+	font-size: 60px;
+}
+.escrita p{
+	font-size: 50px;
+}
+.escritachocolate h1{
+	font-size: 80px;
+	padding-top: 60%;
+}
+}
 
 /*@media only screen and (max-device-width: 1440px) {
 .fundo{
